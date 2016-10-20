@@ -6,8 +6,7 @@ class Test(object):
 	def display(self):
 		return self.id
 
-test = Test("Darshan","12") 
-print(test.displays())
+
 
 class Service(object):
 	def __init__(self,host,binary,topic,manager,report_interval=None,periodic_interval=None, *args, **kwargs):
